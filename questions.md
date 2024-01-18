@@ -175,3 +175,54 @@
 
 > " ...... stratejisine karşı diğer bir yöntem ise ana bellek ve I/O düzenleri için aynı adres mekanizmasının kullanılması durumudur. Bu......  yöntemi olarak bilinir. Bilgisayar perifer düzenin hızlı belleğine ..... parçası gibi davranır. (Boşlukları doldurunuz.)",
 - "İzole edilmiş I/O, belleğe dönüştürülmüş I/O, ana bellek"
+
+> Eş zamanlı olmayan veri transferinde ..... için tek bir kontrol hattı kullanılır. Darbe........ uç tarafından başlatılabilir. Genel olarak, veri hat grubu çok sayıda hattan oluşur, darbe hattı ise ......... olur (Boşlukları doldurunuz)
+
+- darbe kontrolu, kaynak veya alıcı, tek
+
+> "Bu durumda ilkin alıcı uç darbe göndererek, kaynağın veri göndermesini ister. Kaynak veriyl hat grubuna ileterek, alıcıya cevap verir. Verinin alıcı tarafindan alınabilecek süre kadar hatta kalması gerekir. Darbenin düşen kenarına kadar veri hatta kalır ve transfer işlemi tamamlanır". Paragrafi ile fanımlanan prosedür aşağıdakilerden hangisidir.
+
+- Alıcı uçtan başlatılmış darbe kontrolli veri transferi
+
+> Eş zamanlı olmayan seri İletişim işlemi CPU'dan kontrol belleğine gönderilen bayt ile başlar Başlangıç işlerni belirli bir işlem "modu" için parametrelerin tanımlanmasıdır...... karakter başına bit sayısı,...... ve üretimi ve
+karakter  başına kaç.....  kullanılacağı belirlenir. (Boşlukları doldurunuz) 
+
+- baud hızı, parite kontrolki, start biti
+
+> Eş zamanlı olmayan seri iletişimde mümkün olabilecek üç hata türü aşağıdadır. 
+-> Parite hatası
+->...... hatası
+->.......hatası (Boşluklan doldurunuz)
+- çerçeve, aşma
+
+> Parite hatası alınan verideki 1 sayısı tanımlanan pariteye uymazsa oluşur.. ...... Ise doğru sayıda stop biti alınmadığı zaman oluşur. .....  ise CPU'nun bir önceki karakteri diğeri gelmeden önce okuyamaması nedeniyle oluşur....... karakterlerin kaybolmasına neden olur (Boşluklan doldurunuz)
+
+- Çerçeve hataları, Aşıma hatası, Aşma hatası
+
+> ........... bilgi transferinin değişik modlan vardır
+1. Program kontrollü I/O
+2. .... başlatılan 1/0
+3. Doğrudan bellek erişimi (....... ) (Boşlukları doldurunuz)
+
+- Dış düzenler den, Kesinti ile, DMA
+
+>......... bilgisayarda yazılan...... komutları yoluyla olur. Her veri transferi programdaki komutlarla başlatılır. Genellikle transfer CPU'daki.......  ile perifer düzen arasında olur ve sonra ana belleğe aktarım sağlanır. (Boşlukları doldurunuz.)
+- Program kontrollü I/O, I/O, hızı bellek
+
+>....... da, CPU'nun perifer düzen transfer için hazır olduğunu bildirene kadar sürekli bir çevrim içersinde kalması işlemciyi meşgul tutar. Bu durum....... kullanılarak önlenebilir. Kesinti işleminde...... ve komutlan izlenerek, normal koşullarda işlemci kendi programını koşarken kesintı başlatıldığında kesinti prosedürüyle I/O işlernini yapmaya başlar (Boşluklan doldurunuz.)
+
+- Program kontrollü I/O, kesinti prosedürü, kesinti bayrağı
+
+
+>...... yönteminde bellek hat grubu kullanılarak veri ana bellekten okunur 
+veya ona yazılır ....... CPU tarafından başlatılır. Bu sırada CPU transferin.....ve transferedilecek kelime sayısını sağlar ve işlemi başlatır. (Boşluklan doldurunuz.)
+- Doğrudan bellek erişimi, DMA işlemi, başlangıç adresini
+
+> ....... çeşitli kesinti kaynaklarına birden çok kesinti istemi geldiğinde ...... sırasına göre servis dağıtma işlemi yapılır. (Boşlukları doldurunuz.)
+
+- Öncelikli kesintide, öncelik, 
+
+
+
+
+
